@@ -11,4 +11,6 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "Sign up | #{@base_title}"
   end
 
+
+
 end
